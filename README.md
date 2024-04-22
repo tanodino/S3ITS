@@ -2,8 +2,9 @@
 Code associated to the paper https://doi.org/10.1016/j.neucom.2023.127031
 
 There are two files:
-- tempCNN_model.py
-- main.py
+- **tempCNN_model.py**
+- **main.py**
+
 The first python file contains the definition of the backbone (TempCNN) architecture while the second file contains the training procedure for the Constrastive Semi-Supervised Deep Learning framework.
 
 To run the main file, here an example:
