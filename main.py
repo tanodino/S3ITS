@@ -133,7 +133,7 @@ def main(argv):
 
     data = np.load(dataDir+"/data.npy")
     labels = np.load(dataDir+"/labels.npy")
-    labels = labels[:,2]-1
+    #labels = labels[:,2]-1
     
     n_classes = len(np.unique(labels))
     idxLabelledData = np.load(dataDir+"/labels_%s_%s.npy"%(runId, nSamples),allow_pickle=True)
